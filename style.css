@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+
+header {
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 15px;
+    color: #2c3e50;
+}
+
+.tagline {
+    color: gray;
+    font-style: italic;
+}
+
+
+.bio {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+
+.links h2 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.link-card {
+    display: block;
+    background: blue;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.link-card:hover {
+    background: gray;
+}
+
+footer {
+    margin-top: 10px;
+    color: white;
+}
+
+.Image {
+    width: 350px;
+    height: auto;
+}
